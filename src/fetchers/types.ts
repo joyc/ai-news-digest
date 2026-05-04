@@ -3,5 +3,6 @@ export interface Article {
   url: string
   publishedAt: Date
   source: string
+  description?: string
   summary?: string
 }
